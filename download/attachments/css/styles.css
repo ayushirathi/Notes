@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding:0;
+  background-size:cover;
+  width: 970px;
+  height:440px;
+  background-repeat: no-repeat;
+  background-image: url(../images/wall.jpg);
+
+}
+.left {
+  display: inline-block;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+
+.mid {
+  display: block;
+  width: 70%;
+  margin: 20px 53%;
+  cursor: pointer;
+  font-family: 'Baloo Bhai 2', cursive;
+  left: -390px;
+  position: absolute;
+}
+
+.right {
+  right: 44px;
+  top: 30px;
+  display: inline-block;
+  position: absolute;
+}
+
+.navbar {
+  display: inline-block;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 70%;
+  /* width: 150px; */
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 33px;
+}
+
+.navbar li a {
+  padding: 10px 15px;
+  color: black;
+}
+
+.navbar li a:hover, .navbar li a:active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.left img {
+  width: 90px;
+}
+
+.left div {
+  text-align: center;
+  font-size: 5px;
+  color: black;
+  line-height:3px;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Baloo Bhai 2', cursive;
+  margin: 0 9px;
+  padding: 3px 4px;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+.notes{
+  width:50%;
+  position: relative;
+  border-radius: 10px;
+  left: 38%;
+  top: 140px;
+  font-size: 27px;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  padding: 20px;
+  width: 50%;
+  height: 126px;
+  overflow: fixed;
+}
+
+
+
+/*Footer*/
+.aboutus-footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(260deg, #161a24 0%, #062952 100%) !important;
+    color: white;
+    padding: 0rem;
+    height: 8vh !important;
+}
+
+.footer-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.social-links-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.clear-div {
+    height: 20vh;
+    width: 100%;
+}

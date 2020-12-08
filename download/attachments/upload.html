@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta charset="utf-8">
+	<title>Upload</title>
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+	<style>
+	body{
+		 background-size: cover;	
+
+
+	}
+		    select {
+    	font-size: 16px;
+        width: 100%;
+        margin: 0px;
+	border-radius: 10px;
+	padding:8px;
+
+    }
+    select:focus {
+        min-width: 95%;
+        width: auto;
+    }
+	.my-form input[type="text"], .my-form textarea {
+	padding:8px;
+	width: 95%;
+	font-size:16px;
+	border-radius: 10px;
+	margin: 1%;
+
+
+    }
+    .my-form td{
+    	font-size: 20px;
+    
+    .button{
+	background-color: black;
+	color:#fff;
+	padding: 10px 15px;
+	border:none;
+	border-radius: 15px;
+}
+.button:hover{
+	background: rgba(255, 0, 140, 0.993);
+	color:#fff;
+}
+
+</style>
+</head>
+<body background="up.jpg">
+	<center><font color= "#ffffff" style="Allerta Stencil, Sans-serif" size="75" ><h1 backgroundcolor="#111" color="#e6b94e">The Notes Gallery</h1></center>
+	<form class="my-form" action="mailto:notegallery1234@gmail.com" method="post" enctype="text/plain">
+		<table rules="none" frame="void" cellpadding="2" width="50%" bgcolor="" align="center" border="1" cellspacing="2">
+			<b><tr><td colspan="2"><font size="6"><center>Uploading Details</center></font></td></tr>
+			</b>
+			<tr><td>Name&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+				<td backgroundcolor="#9fbbbf"><input type="text" name="textnames" id="textnames" size="40" required="">
+				</td>
+			</tr>
+			<tr><td>Subject</td>
+				<td><input type="text" name="textnames" id="textnames" size="40" required="">
+				</td>
+			</tr>
+			<tr><td>Topic</td>
+				<td><input type="text" name="textnames" id="textnames" size="40" required="">
+				</td>
+			</tr>
+			<tr><td>Year</td>
+				<td><select name="Year" >
+					<option value="-1" selected="" required>Select</option>
+					<option value="Student">I Year</option>
+					<option value="Teacher">II Year</option>
+					<option value="Teacher">III Year</option>
+					<option value="Teacher">IV Year</option>
+				</select>
+				</td>
+			</tr>
+			<tr><td>Email-ID</td>
+				<td><input type="text" name="textnames" id="textnames" size="40" required="">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					File Type
+				</td>
+				<td>
+					<input type="radio" name="file" value="pdf" size="12">PDF
+					<input type="radio" name="file" value="doc" size="12">DOC
+					<input type="radio" name="file" value="jpeg" size="12">JPEG
+					<input type="radio" name="file" value="png" size="12">PNG	
+				</td>
+			</tr>
+			<tr> <td></td>
+			</tr>
+			<tr> <td></td>
+			</tr>		
+			<tr>
+				<td>
+					Upload Notes
+				</td>
+				<td>
+					<label for="myfile">&nbsp;&nbsp;&nbsp;</label>
+					<input type="file" id="myfile" name="myfile" required="">
+				</td>
+			</tr>
+			<tr> <td></td>
+			</tr>
+			<tr> <td></td>
+			</tr>				
+			<tr>
+				<td colspan="2" align="center">
+					<input class="button" type="submit" value="Submit" name="">
+
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
